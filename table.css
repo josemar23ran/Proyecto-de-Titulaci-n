@@ -1,0 +1,69 @@
+
+body {
+    background-color: #1e1e1e;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+span.sucursal {
+    float: left;
+    margin-right: 20px; /* Ajusta el margen según sea necesario */
+}
+
+/* Estilo para la imagen */
+span.imagen {
+    float: right;
+    margin-left: 20px; /* Ajusta el margen según sea necesario */
+}
+
+/* Estilo para el contenedor del output */
+div.output-container {
+    clear: both; /* Asegura que este contenedor se coloque debajo de los elementos flotantes anteriores */
+    text-align: center; /* Centra el contenido dentro del contenedor */
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #0099CC;
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #0099CC;
+}
+
+th {
+    background-color: #0099CC;
+    color: #fff;
+}
+
+table td img {
+    max-width: 130px;
+    max-height: 130px;
+    border-radius: 30px;
+}
+
+table td a img {
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+}
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
